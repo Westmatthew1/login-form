@@ -1,0 +1,73 @@
+image( "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80")
+
+https://images.unsplash.com/photo-1517697471339-4aa32003c11a
+
+
+
+Artist Portfolio Website
+
+Overview
+
+This is a responsive artist portfolio website built using HTML, CSS, and Bootstrap. It showcases an artist's work, including a hero section, a featured works carousel, and additional content pages.
+
+Features
+
+Responsive Design: Uses Bootstrap to ensure compatibility across devices.
+
+Hero Section: A visually striking introduction with a background image overlay.
+
+Navigation Bar: Fixed-top menu for easy access to different sections.
+
+Image Carousel: A Bootstrap-powered slider to showcase featured artworks.
+
+About & Contact Pages: Additional pages for artist information and contact details.
+
+Custom Styles: Additional CSS for a unique and aesthetic design.
+
+Technologies Used
+
+HTML5
+
+CSS3
+
+Bootstrap 5
+
+Javascript
+
+Setup Instructions
+
+Clone the repository or download the project files.
+
+git clone https://github.com/your-username/artist-portfolio.git
+
+Navigate to the project folder.
+
+cd artist-portfolio
+
+Open index.html in a web browser.
+
+File Structure
+
+artist-portfolio/
+│── index.html  (Main portfolio page)
+│── about.html  (About page)
+│── contact.html (Contact page)
+│── styles.css  (Custom styles)
+│── assets/     (Images and resources)
+│── images/     (Artwork images)
+└── README.md   (Project documentation)
+
+Customization
+
+Update styles.css to modify design elements.
+
+Replace placeholder images in the images/ directory with your own artwork.
+
+Modify text content in index.html, about.html, and contact.html as needed.
+
+License
+
+This project is open-source and available under the MIT License.
+
+Contact
+

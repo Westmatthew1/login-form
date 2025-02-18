@@ -1,92 +1,11 @@
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: url(./asssets/istock.PHOTO.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+footer{
+    color: rgb(167, 19, 187);
+    height: 100px;
 }
 
-.form-container {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  margin-top: 100px;
-
-  mix-blend-mode: screen;
-
-  color: white;
-  background: url(./asssets/istockphoto-1455562255-1024x1024.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 70vh;
-  align-items: center;
-  gap: 20px;
-}
-@media screen and (max-width: 1440px) { 
-  form{
-    height: 100%;
-
-  }
-  button{
-    font-size: 20px;
-    font-family: cursive;
-  }
-
-} 
-  
-
-input,
-button {
-  margin-bottom: 5px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  color: #000;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-weight: bold;
-  width: 370px;
-  padding: 20px;
-  border-radius: 50px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-.input {
-  width: 350px;
-
-  border-radius: 50px;
-  margin: 10px;
-}
-
-.remember-forget {
-  width: 70%;
-}
-
-.remember-forget,
-button {
-  margin-bottom: 20px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-span {
-  float: right;
+#image{
+    height: 90vh;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
 }

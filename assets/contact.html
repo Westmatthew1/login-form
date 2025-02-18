@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - E~B Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .contact-section {
+        margin-top: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">E~B Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h1 class="text-center mb-3">Get in Touch</h1>
+            <p class="text-center text-muted mb-5">
+              Interested in commissioning work or have a question? Send me a
+              message!
+            </p>
+
+            <div class="card shadow-sm">
+              <div class="card-body p-4">
+                <form id="contact-form">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-success w-100">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2025 E~B Portfolio. All rights reserved.</p>
+      </div>
+      <div>
+       <a href="https://wa.me/09136124365?text=Hello%20there!
+       "> <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#25D366" d="M12 0C5.373 0 0 5.373 0 12c0 2.113.553 4.078 1.52 5.786L0 24l6.41-1.49A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.06a9.993 9.993 0 01-5.308-1.496l-.381-.237-3.806.884.822-3.55-.247-.381A9.963 9.963 0 012.06 12c0-5.503 4.477-9.94 9.94-9.94S21.94 6.497 21.94 12s-4.477 9.94-9.94 9.94zm4.09-7.376c-.207-.104-1.223-.604-1.412-.673-.189-.07-.326-.104-.464.105-.14.207-.53.673-.65.812-.119.14-.24.156-.447.052-.208-.105-.875-.324-1.667-1.033-.616-.547-1.032-1.224-1.153-1.43-.12-.207-.013-.319.092-.423.095-.094.207-.24.311-.36.028-.035.05-.066.07-.095.04-.06.069-.107.101-.183.052-.121.026-.23-.013-.319-.039-.086-.464-1.113-.635-1.523-.167-.407-.338-.35-.464-.356-.12-.005-.26-.005-.4-.005s-.366.052-.56.26c-.189.207-.735.718-.735 1.75 0 1.03.753 2.023.857 2.167.104.138 1.486 2.27 3.606 3.186.504.217.897.346 1.205.444.505.16.963.138 1.327.083.405-.061 1.223-.5"/></svg></a>
+        
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "g5ptBXpuJbE7QXltF",
+        });
+        console.log("EmailJS Initialized", emailjs);
+      })();
+    </script>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
